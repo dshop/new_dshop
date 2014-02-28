@@ -1,1 +1,40 @@
-body{background:#ccc;color:#333;font-size:16px}
+body{background-color:#fff;font-family:'Open Sans',sans-serif;font-size:16px;color:#333;padding:.5em;font-size:15px}
+img{width:auto 9;height:auto;max-width:100%;vertical-align:middle;border:0;-ms-interpolation-mode:bicubic}
+h2{text-align:center}
+header{background-color:#fefefe;border-bottom:solid 1px #dedede;height:auto;overflow:hidden;padding:.5em;}
+header .nav{float:right;}
+header .nav ul{list-style:none;padding:0;border:0;}
+header .nav ul li{float:left;padding:.2em;margin:0 .4em 0 .4em;}
+header .nav ul li a{text-decoration:none;color:#777;cursor:pointer;transition:color .4s ease-out}
+header .nav ul li a:hover{text-decoration:underline;color:#3080e8}
+header .nav ul li a -webkit-transition: color .4s ease-out{-ms-transition:color .4s ease-out;-o-transition:color .4s ease-out;-moz-transition:color .4s ease-out}
+header .logo{float:left}
+section{margin-top:1em}
+input{padding:.5em;margin:.3em;-ms-border-radius:3px;-moz-border-radius:3px;-o-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;border:solid 1px #ccc}
+label{display:block;margin:.5em .2em .5em .2em}
+.social{width:400px;margin:0 auto;}
+.social ul{overflow:hidden;}
+.social ul li{list-style:none;float:left}
+.step1{overflow:hidden;width:96%;margin:0 auto;margin-bottom:50px}
+.main_picture{float:left;width:58%;padding:.5em;background-color:#fff;}
+.main_picture img{width:100%}
+.page_welcome{padding:.5em;float:right;width:39%;}
+.page_welcome h1{font-size:2.5em}
+.page_welcome p{padding:.3em}
+.page_welcome form input[type="submit"]{width:200px;margin-top:20px}
+.page_welcome form input[type="text"]{width:400px}
+.page_welcome form input[type="email"]{width:400px}
+.step2_copy{display:none;text-align:center}
+.step2,.step4,.step6,.step7{text-align:center;width:60%;margin:0 auto}
+.step2 ul li{list-style:none}
+.pricing,.tour{display:none}
+.separator{width:1px;height:75px;margin-left:50%;margin-top:10px;background-color:#bbb}
+.step3,.step5{overflow:hidden;position:relative;width:100%}
+.step7{margin-top:70px;margin-bottom:70px}
+.feature_box{width:31%;padding:.2em;margin:.71em;text-align:center;float:left}
+footer{height:auto;border-top:solid 2px #eee;text-align:center;padding:1em;}
+footer p{text-align:center;border:0;font-size:14px;margin-top:30px}
+.links{width:100%;text-align:center}
+footer .links a{margin:1em;text-decoration:none;color:#777;cursor:pointer;}
+footer .links a:hover{text-decoration:underline;color:#3080e8;transition:color .4s ease-out}
+footer .links a:hover -webkit-transition: color .4s ease-out{-ms-transition:color .4s ease-out;-o-transition:color .4s ease-out;-moz-transition:color .4s ease-out}
