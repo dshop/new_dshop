@@ -1,5 +1,8 @@
-body{background-color:#fff;font-family:'Open Sans',sans-serif;font-size:16px;color:#333;padding:.5em;font-size:15px}
+body{background-color:#fff;font-family:'Open Sans',sans-serif;font-size:16px;color:#555;padding:.5em;font-size:15px}
 img{width:auto 9;height:auto;max-width:100%;vertical-align:middle;border:0;-ms-interpolation-mode:bicubic}
+a{text-decoration:none;color:#222;cursor:pointer;}
+a:hover{text-decoration:underline;color:#3080e8;transition:color .4s ease-out}
+a:hover -webkit-transition: color .4s ease-out{-ms-transition:color .4s ease-out;-o-transition:color .4s ease-out;-moz-transition:color .4s ease-out}
 h2{text-align:center}
 header{background-color:#fefefe;border-bottom:solid 1px #dedede;height:auto;overflow:hidden;padding:.5em;}
 header .nav{float:right;}
@@ -8,24 +11,32 @@ header .nav ul li{float:left;padding:.2em;margin:0 .4em 0 .4em;}
 header .nav ul li a{text-decoration:none;color:#777;cursor:pointer;transition:color .4s ease-out}
 header .nav ul li a:hover{text-decoration:underline;color:#3080e8}
 header .nav ul li a -webkit-transition: color .4s ease-out{-ms-transition:color .4s ease-out;-o-transition:color .4s ease-out;-moz-transition:color .4s ease-out}
-header .logo{float:left}
+header .logo{float:left;}
+header .logo span{font-size:12px;font-style:italic;color:#666}
+.call_action_blue{background-color:#318bfb;background-image:-webkit-gradient(linear,0% 0%,0% 0%,from(#318bfb),to(#2b75d1));background-image:-webkit-linear-gradient(top,#318bfb,#2b75d1);background-image:-moz-linear-gradient(top,#318bfb,#2b75d1);background-image:-ms-linear-gradient(top,#318bfb,#2b75d1);background-image:-o-linear-gradient(top,#318bfb,#2b75d1);padding:.5em;width:auto;font-size:1.4em;color:#fff;-ms-border-radius:5px;-moz-border-radius:5px;-o-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;border:solid 3px #1b63bd}
+.call_action_red{background-color:#f36965;background-image:-webkit-gradient(linear,0% 0%,0% 0%,from(#f36965),to(#c33f38));background-image:-webkit-linear-gradient(top,#f36965,#c33f38);background-image:-moz-linear-gradient(top,#f36965,#c33f38);background-image:-ms-linear-gradient(top,#f36965,#c33f38);background-image:-o-linear-gradient(top,#f36965,#c33f38);padding:.7em;width:auto;font-size:1.4em;color:#fff;-ms-border-radius:5px;-moz-border-radius:5px;-o-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;border:solid 3px #de423a}
+.call_action_green{background-color:#55cd13;background-image:-webkit-gradient(linear,0% 0%,0% 0%,from(#55cd13),to(#43a110));background-image:-webkit-linear-gradient(top,#55cd13,#43a110);background-image:-moz-linear-gradient(top,#55cd13,#43a110);background-image:-ms-linear-gradient(top,#55cd13,#43a110);background-image:-o-linear-gradient(top,#55cd13,#43a110);padding:.7em;width:auto;font-size:1.4em;color:#fff;-ms-border-radius:5px;-moz-border-radius:5px;-o-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;border:solid 3px #3f960f}
 section{margin-top:1em}
 input{padding:.5em;margin:.3em;-ms-border-radius:3px;-moz-border-radius:3px;-o-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;border:solid 1px #ccc}
 label{display:block;margin:.5em .2em .5em .2em}
 .social{width:400px;margin:0 auto;}
+.social p strong{font-style:bold;color:#fe534c}
 .social ul{overflow:hidden;}
 .social ul li{list-style:none;float:left}
 .step1{overflow:hidden;width:96%;margin:0 auto;margin-bottom:50px}
 .main_picture{float:left;width:58%;padding:.5em;background-color:#fff;}
 .main_picture img{width:100%}
 .page_welcome{padding:.5em;float:right;width:39%;}
-.page_welcome h1{font-size:2.5em}
-.page_welcome p{padding:.3em}
-.page_welcome form input[type="submit"]{width:200px;margin-top:20px}
+.page_welcome h1{font-size:2.5em;border:0;padding:0}
+.page_welcome p{border:0;font-size:17px;padding-right:.5em}
+.page_welcome form label{font-size:14px}
+.page_welcome form input[type="submit"]{margin-top:20px}
 .page_welcome form input[type="text"]{width:400px}
 .page_welcome form input[type="email"]{width:400px}
 .step2_copy{display:none;text-align:center}
 .step2,.step4,.step6,.step7{text-align:center;width:60%;margin:0 auto}
+.step5 .feature_box img{max-width:300px;max-height:200px}
+.step3 .feature_box img{max-width:300px;max-height:200px}
 .step2 ul li{list-style:none}
 .pricing,.tour{display:none}
 .separator{width:1px;height:75px;margin-left:50%;margin-top:10px;background-color:#bbb}

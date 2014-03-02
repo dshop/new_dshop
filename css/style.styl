@@ -1,9 +1,64 @@
+red_top = #f36965
+red_bottom = #c33f38
+red_border = #de423a
+
+blue_top = #318bfb
+blue_bottom = #2b75d1
+blue_border = #1b63bd
+
+green_top = #55cd13
+green_bottom = #43a110
+green_border = #3f960f
+
 bordes()
     -ms-border-radius arguments
     -moz-border-radius arguments
     -o-border-radius arguments
     -webkit-border-radius arguments
     border-radius arguments
+
+call_action_red()
+    background-color: red_top;
+    background-image: -webkit-gradient(linear, 0% 0%,0% 0%, from(red_top), to(red_bottom));
+    background-image: -webkit-linear-gradient(top, red_top, red_bottom);
+    background-image: -moz-linear-gradient(top, red_top, red_bottom);
+    background-image: -ms-linear-gradient(top, red_top, red_bottom);
+    background-image: -o-linear-gradient(top, red_top, red_bottom);
+    padding .7em
+    width auto
+    font-size 1.4em
+    color #fff
+    bordes(5px)
+    border solid 3px red_border
+
+call_action_blue()
+    background-color: blue_top;
+    background-image: -webkit-gradient(linear, 0% 0%,0% 0%, from(blue_top), to(blue_bottom));
+    background-image: -webkit-linear-gradient(top, blue_top, blue_bottom);
+    background-image: -moz-linear-gradient(top, blue_top, blue_bottom);
+    background-image: -ms-linear-gradient(top, blue_top, blue_bottom);
+    background-image: -o-linear-gradient(top, blue_top, blue_bottom);
+    padding .5em
+    width auto
+    font-size 1.4em
+    color #fff
+    bordes(5px)
+    border solid 3px blue_border
+
+call_action_green()
+    background-color: green_top;
+    background-image: -webkit-gradient(linear, 0% 0%,0% 0%, from(green_top), to(green_bottom));
+    background-image: -webkit-linear-gradient(top, green_top, green_bottom);
+    background-image: -moz-linear-gradient(top, green_top, green_bottom);
+    background-image: -ms-linear-gradient(top, green_top, green_bottom);
+    background-image: -o-linear-gradient(top, green_top, green_bottom);
+    padding .7em
+    width auto
+    font-size 1.4em
+    color #fff
+    bordes(5px)
+    border solid 3px green_border
+
 
 tran()
     -webkit-transition: color .4s ease-out
@@ -15,7 +70,7 @@ body
     background-color white
     font-family 'Open Sans', sans-serif
     font-size 16px
-    color #333
+    color #555
     padding .5em
     font-size 15px
 
@@ -26,7 +81,14 @@ img
 	  vertical-align middle
 	  border 0
 	  -ms-interpolation-mode bicubic
-
+a
+   text-decoration none
+   color #222
+   cursor pointer
+   &:hover
+        text-decoration underline
+        color #3080E8
+        tran() 
 h2
   text-align center
 header 
@@ -55,7 +117,20 @@ header
 	                 tran() 
     .logo
          float left
+         span 
+            font-size 12px
+            font-style:italic
+            color #666
 
+.call_action_blue
+    call_action_blue()
+
+.call_action_red
+    call_action_red()
+
+.call_action_green
+    call_action_green()
+    
 section 
     margin-top 1em
 
@@ -72,6 +147,9 @@ label
 .social
     width 400px
     margin 0 auto
+    p strong 
+      font-style bold
+      color #fe534c
     ul 
        overflow hidden
        li
@@ -98,11 +176,16 @@ label
     width 39%
     h1
       font-size 2.5em
+      border 0px
+      padding 0px
     p 
-      padding .3em
+      border 0px
+      font-size 17px
+      padding-right .5em
     form
+      label
+         font-size 14px
       input[type="submit"]
-         width 200px
          margin-top 20px
       input[type="text"]
          width 400px
@@ -120,6 +203,18 @@ label
     text-align center
     width 60%
     margin 0 auto
+
+.step5
+    .feature_box
+       img
+          max-width 300px
+          max-height 200px
+
+.step3
+    .feature_box
+       img
+          max-width 300px
+          max-height 200px
 
 .step2
     ul li
