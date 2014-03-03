@@ -1,0 +1,9 @@
+User-Agent: *
+Disallow: 
+Allow: http://dshop.me/site/
+Allow: http://dshop.me/index.php
+Allow: http://dshop.me/contact.php
+Allow: http://dshop.me/tour.php
+Allow: http://dshop.me/pricing.php
+Allow: http://dshop.me/company.php
+Allow: http://dshop.me/sitemap.html

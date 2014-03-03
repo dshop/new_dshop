@@ -1,6 +1,5 @@
-@media screen and (max-width: 1200px){body{background-color:#ffc0cb}
-.feature_box{width:30%}
-}@media screen and (max-width: 1180px){body{font-size:15px;background-color:#f00}
+@media screen and (max-width: 1200px){.feature_box{width:30%}
+}@media screen and (max-width: 1180px){body{font-size:15px}
 .feature_box{width:30%}
 .step1{width:100%}
 .main_picture{width:46%}
@@ -8,16 +7,15 @@
 .page_welcome h1{border:0;padding:0}
 .page_welcome form input[type="text"]{width:80%}
 .page_welcome form input[type="email"]{width:80%}
-}@media screen and (max-width: 1000px){body{font-size:14px;background-color:#ff0}
+}@media screen and (max-width: 1000px){body{font-size:14px}
 .feature_box{width:30.5%}
 .main_picture{width:54%}
 .page_welcome{width:42%;}
 .page_welcome input{width:90%}
-}@media screen and (max-width: 950px){body{background-color:#000;font-size:13.5px}
+}@media screen and (max-width: 950px){body{font-size:13.5px}
 .feature_box{width:30%}
 .slogan{display:none}
-}@media screen and (max-width: 770px){body{background-color:#00f;}
-body p{text-align:center}
+}@media screen and (max-width: 770px){body p{text-align:center}
 .feature_box{width:44%}
 .long_tour{display:none}
 .tour{display:block}
@@ -27,8 +25,7 @@ body p{text-align:center}
 .social{display:none}
 .step1{margin-bottom:0}
 .step2,.step4,.step6,.step7{text-align:center;width:80%;margin:0 auto}
-}@media screen and (max-width: 600px){body{background-color:#ffa500;}
-body h1{font-size:1.7em}
+}@media screen and (max-width: 600px){body h1{font-size:1.7em}
 body h2{font-size:1.3em}
 .feature_box{width:90%;margin:0 auto;margin-top:10px}
 .long_pricing,.long_tour{display:none}

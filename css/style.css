@@ -19,11 +19,12 @@ header .logo span{font-size:12px;font-style:italic;color:#666}
 section{margin-top:1em}
 input{padding:.5em;margin:.3em;-ms-border-radius:3px;-moz-border-radius:3px;-o-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;border:solid 1px #ccc}
 label{display:block;margin:.5em .2em .5em .2em}
-.social{width:400px;margin:0 auto;}
-.social p strong{font-style:bold;color:#fe534c}
+.social{width:500px;margin:0 auto;}
+.social p strong{font-style:bold;}
+.social p{text-align: center;}
 .social ul{overflow:hidden;}
-.social ul li{list-style:none;float:left}
-.step1{overflow:hidden;width:96%;margin:0 auto;margin-bottom:50px}
+.social ul li{list-style:none;float:left; margin:5px;}
+.step1{overflow:hidden;width:96%;margin:0 auto;margin-bottom:30px}
 .main_picture{float:left;width:58%;padding:.5em;background-color:#fff;}
 .main_picture img{width:100%}
 .page_welcome{padding:.5em;float:right;width:39%;}

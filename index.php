@@ -9,23 +9,32 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Dshop The smarter inventory software for stores</title>
         <meta name="description" content="Wanna know how Dshop can increase your store's sales and business growth?, give us a chance and start now your FREE TRIAL.">
-        <meta name="viewport" content="width=device-width">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/responsive.css">
+    <?php 
+      include("site/styles.php");
+    ?>
     </head>
 
     <body>
+    <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
-    <?php include ('site/header.php') ?> <!--header-->
+    <?php 
+      include("site/header.php");
+    ?> <!--header-->
 
         <section>
 
              <article class="step1">
                  <div class="main_picture">
-                  <img src="img/prueba6.png" alt="dshop" />
+                  <img src="http://i.imgur.com/LIVSde4.png" alt="Dshop the smarter inventory software" />
                  </div>
                  <div class="page_welcome">
                   <h1>The #1 inventory software for stores</h1>
@@ -68,13 +77,13 @@
                     <li>2. What is the Purchase frecuency on your customers</li>
                   </ul>
                   <p>And more...</p>
-                  <input type="submit" value="Start your 30 days free trial" id="call_action_1" class="call_action_green" />
+                  <input type="submit" value="Start your 30 days free trial" id="call_action_1" class="call_action_red" />
              </article>
  
              <article class="step2_copy">
                   <h2>Hi!, Let me explain to you what Dshop is</h2>
                   <p>Dshop is an inventory and management software for retail stores, Dshop is here to provide you valuable information that can make your business survive and grow on a competitive market.</p>
-                  <input type="submit" value="Start your 30 days free trial" id="call_action_11" class="call_action_green" />
+                  <input type="submit" value="Start your 30 days free trial" id="call_action_11" class="call_action_red" />
              </article>
 
              <article class="separator">
@@ -148,9 +157,11 @@
              </article>
 
         </section>
-        <!--Section****************************************-->
+       
 
-        <?php include ('site/footer.php') ?> <!--footer--> 
+        <?php 
+         include("site/footer.php");
+         ?> <!--footer-->
 
     </body>
 </html>
